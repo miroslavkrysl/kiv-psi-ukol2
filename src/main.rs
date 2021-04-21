@@ -1,3 +1,9 @@
+use crate::server::run_server;
+
+mod server;
+mod request;
+mod http;
+
 fn main() {
-    println!("Hello, world!");
+    run_server("0.0.0.0:8080");
 }
