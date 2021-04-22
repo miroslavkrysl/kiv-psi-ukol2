@@ -75,6 +75,7 @@ pub struct HttpResponse {
     content: Option<Vec<u8>>,
 }
 
+#[allow(dead_code)]
 impl HttpResponse {
     pub fn new(version: HttpVersion, status_code: u16, content: Option<Vec<u8>>) -> Self {
         HttpResponse {
