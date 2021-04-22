@@ -1,7 +1,6 @@
 use crate::server::run_server;
 
 mod server;
-mod request;
 mod http;
 
 fn main() {
